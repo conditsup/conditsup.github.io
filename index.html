@@ -7,10 +7,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id="header"></header>
-    <section id="about"></section>
-    <section id="projects"></section>
-    <footer id="footer"></footer>
+    <div class="container">
+        <aside id="profile">
+            <img src="images/profile.jpg" alt="프로필 사진">
+            <p>안녕하십니까,</p>
+            <p>컴퓨터공학과 19학번 김도엽입니다.</p> 
+            <p>특기 언어는 C++이고 언리얼과 유니티를 공부하고 있습니다.</C></p> 
+            <p>졸업 후에는 넥슨에 입사해 게임 디렉터가 되고 싶습니다.</C></p> 
+            <p>프로필 사진은 3년전 군대 사진입니다. ^_^</C></p> 
+        </aside>
+        <main id="main-content">
+            <h2 class="section-title">History</h2> 
+            <section id="projects">
+
+            </section>
+        </main>
+    </div>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+    <footer>
+        <p>메일 - duql0331@daum.net</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
